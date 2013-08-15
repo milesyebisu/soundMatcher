@@ -1,0 +1,469 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D4F74517BCA3620036741C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4F74417BCA3620036741C /* UIKit.framework */; };
+		84D4F74717BCA3620036741C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4F74617BCA3620036741C /* Foundation.framework */; };
+		84D4F74917BCA3620036741C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4F74817BCA3620036741C /* CoreGraphics.framework */; };
+		84D4F74F17BCA3620036741C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D4F74D17BCA3620036741C /* InfoPlist.strings */; };
+		84D4F75117BCA3620036741C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4F75017BCA3620036741C /* main.m */; };
+		84D4F75517BCA3620036741C /* SoundMatcherAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4F75417BCA3620036741C /* SoundMatcherAppDelegate.m */; };
+		84D4F75717BCA3620036741C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D4F75617BCA3620036741C /* Default.png */; };
+		84D4F75917BCA3620036741C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D4F75817BCA3620036741C /* Default@2x.png */; };
+		84D4F75B17BCA3620036741C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 84D4F75A17BCA3620036741C /* Default-568h@2x.png */; };
+		84D4F75E17BCA3620036741C /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D4F75C17BCA3620036741C /* MainStoryboard.storyboard */; };
+		84D4F76117BCA3620036741C /* SoundMatcherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4F76017BCA3620036741C /* SoundMatcherViewController.m */; };
+		84D4F76917BCA3630036741C /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4F76817BCA3630036741C /* SenTestingKit.framework */; };
+		84D4F76A17BCA3630036741C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4F74417BCA3620036741C /* UIKit.framework */; };
+		84D4F76B17BCA3630036741C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84D4F74617BCA3620036741C /* Foundation.framework */; };
+		84D4F77317BCA3630036741C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84D4F77117BCA3630036741C /* InfoPlist.strings */; };
+		84D4F77617BCA3630036741C /* SoundMatcherTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D4F77517BCA3630036741C /* SoundMatcherTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D4F76C17BCA3630036741C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D4F73917BCA3620036741C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D4F74017BCA3620036741C;
+			remoteInfo = SoundMatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D4F74117BCA3620036741C /* SoundMatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoundMatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4F74417BCA3620036741C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84D4F74617BCA3620036741C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84D4F74817BCA3620036741C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84D4F74C17BCA3620036741C /* SoundMatcher-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundMatcher-Info.plist"; sourceTree = "<group>"; };
+		84D4F74E17BCA3620036741C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D4F75017BCA3620036741C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84D4F75217BCA3620036741C /* SoundMatcher-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SoundMatcher-Prefix.pch"; sourceTree = "<group>"; };
+		84D4F75317BCA3620036741C /* SoundMatcherAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundMatcherAppDelegate.h; sourceTree = "<group>"; };
+		84D4F75417BCA3620036741C /* SoundMatcherAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundMatcherAppDelegate.m; sourceTree = "<group>"; };
+		84D4F75617BCA3620036741C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		84D4F75817BCA3620036741C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		84D4F75A17BCA3620036741C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		84D4F75D17BCA3620036741C /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84D4F75F17BCA3620036741C /* SoundMatcherViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundMatcherViewController.h; sourceTree = "<group>"; };
+		84D4F76017BCA3620036741C /* SoundMatcherViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundMatcherViewController.m; sourceTree = "<group>"; };
+		84D4F76717BCA3630036741C /* SoundMatcherTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SoundMatcherTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D4F76817BCA3630036741C /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84D4F77017BCA3630036741C /* SoundMatcherTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SoundMatcherTests-Info.plist"; sourceTree = "<group>"; };
+		84D4F77217BCA3630036741C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84D4F77417BCA3630036741C /* SoundMatcherTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SoundMatcherTests.h; sourceTree = "<group>"; };
+		84D4F77517BCA3630036741C /* SoundMatcherTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SoundMatcherTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D4F73E17BCA3620036741C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4F74517BCA3620036741C /* UIKit.framework in Frameworks */,
+				84D4F74717BCA3620036741C /* Foundation.framework in Frameworks */,
+				84D4F74917BCA3620036741C /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4F76317BCA3630036741C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4F76917BCA3630036741C /* SenTestingKit.framework in Frameworks */,
+				84D4F76A17BCA3630036741C /* UIKit.framework in Frameworks */,
+				84D4F76B17BCA3630036741C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D4F73817BCA3620036741C = {
+			isa = PBXGroup;
+			children = (
+				84D4F74A17BCA3620036741C /* SoundMatcher */,
+				84D4F76E17BCA3630036741C /* SoundMatcherTests */,
+				84D4F74317BCA3620036741C /* Frameworks */,
+				84D4F74217BCA3620036741C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D4F74217BCA3620036741C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D4F74117BCA3620036741C /* SoundMatcher.app */,
+				84D4F76717BCA3630036741C /* SoundMatcherTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D4F74317BCA3620036741C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84D4F74417BCA3620036741C /* UIKit.framework */,
+				84D4F74617BCA3620036741C /* Foundation.framework */,
+				84D4F74817BCA3620036741C /* CoreGraphics.framework */,
+				84D4F76817BCA3630036741C /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84D4F74A17BCA3620036741C /* SoundMatcher */ = {
+			isa = PBXGroup;
+			children = (
+				84D4F75317BCA3620036741C /* SoundMatcherAppDelegate.h */,
+				84D4F75417BCA3620036741C /* SoundMatcherAppDelegate.m */,
+				84D4F75C17BCA3620036741C /* MainStoryboard.storyboard */,
+				84D4F75F17BCA3620036741C /* SoundMatcherViewController.h */,
+				84D4F76017BCA3620036741C /* SoundMatcherViewController.m */,
+				84D4F74B17BCA3620036741C /* Supporting Files */,
+			);
+			path = SoundMatcher;
+			sourceTree = "<group>";
+		};
+		84D4F74B17BCA3620036741C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D4F74C17BCA3620036741C /* SoundMatcher-Info.plist */,
+				84D4F74D17BCA3620036741C /* InfoPlist.strings */,
+				84D4F75017BCA3620036741C /* main.m */,
+				84D4F75217BCA3620036741C /* SoundMatcher-Prefix.pch */,
+				84D4F75617BCA3620036741C /* Default.png */,
+				84D4F75817BCA3620036741C /* Default@2x.png */,
+				84D4F75A17BCA3620036741C /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84D4F76E17BCA3630036741C /* SoundMatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D4F77417BCA3630036741C /* SoundMatcherTests.h */,
+				84D4F77517BCA3630036741C /* SoundMatcherTests.m */,
+				84D4F76F17BCA3630036741C /* Supporting Files */,
+			);
+			path = SoundMatcherTests;
+			sourceTree = "<group>";
+		};
+		84D4F76F17BCA3630036741C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84D4F77017BCA3630036741C /* SoundMatcherTests-Info.plist */,
+				84D4F77117BCA3630036741C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D4F74017BCA3620036741C /* SoundMatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4F77917BCA3630036741C /* Build configuration list for PBXNativeTarget "SoundMatcher" */;
+			buildPhases = (
+				84D4F73D17BCA3620036741C /* Sources */,
+				84D4F73E17BCA3620036741C /* Frameworks */,
+				84D4F73F17BCA3620036741C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SoundMatcher;
+			productName = SoundMatcher;
+			productReference = 84D4F74117BCA3620036741C /* SoundMatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D4F76617BCA3630036741C /* SoundMatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D4F77C17BCA3630036741C /* Build configuration list for PBXNativeTarget "SoundMatcherTests" */;
+			buildPhases = (
+				84D4F76217BCA3630036741C /* Sources */,
+				84D4F76317BCA3630036741C /* Frameworks */,
+				84D4F76417BCA3630036741C /* Resources */,
+				84D4F76517BCA3630036741C /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D4F76D17BCA3630036741C /* PBXTargetDependency */,
+			);
+			name = SoundMatcherTests;
+			productName = SoundMatcherTests;
+			productReference = 84D4F76717BCA3630036741C /* SoundMatcherTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D4F73917BCA3620036741C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SoundMatcher;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = miles.yebisu;
+			};
+			buildConfigurationList = 84D4F73C17BCA3620036741C /* Build configuration list for PBXProject "SoundMatcher" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84D4F73817BCA3620036741C;
+			productRefGroup = 84D4F74217BCA3620036741C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D4F74017BCA3620036741C /* SoundMatcher */,
+				84D4F76617BCA3630036741C /* SoundMatcherTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D4F73F17BCA3620036741C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4F74F17BCA3620036741C /* InfoPlist.strings in Resources */,
+				84D4F75717BCA3620036741C /* Default.png in Resources */,
+				84D4F75917BCA3620036741C /* Default@2x.png in Resources */,
+				84D4F75B17BCA3620036741C /* Default-568h@2x.png in Resources */,
+				84D4F75E17BCA3620036741C /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4F76417BCA3630036741C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4F77317BCA3630036741C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84D4F76517BCA3630036741C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D4F73D17BCA3620036741C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4F75117BCA3620036741C /* main.m in Sources */,
+				84D4F75517BCA3620036741C /* SoundMatcherAppDelegate.m in Sources */,
+				84D4F76117BCA3620036741C /* SoundMatcherViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D4F76217BCA3630036741C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D4F77617BCA3630036741C /* SoundMatcherTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D4F76D17BCA3630036741C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D4F74017BCA3620036741C /* SoundMatcher */;
+			targetProxy = 84D4F76C17BCA3630036741C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D4F74D17BCA3620036741C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D4F74E17BCA3620036741C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84D4F75C17BCA3620036741C /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D4F75D17BCA3620036741C /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84D4F77117BCA3630036741C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D4F77217BCA3630036741C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D4F77717BCA3630036741C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84D4F77817BCA3630036741C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D4F77A17BCA3630036741C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundMatcher/SoundMatcher-Prefix.pch";
+				INFOPLIST_FILE = "SoundMatcher/SoundMatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84D4F77B17BCA3630036741C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundMatcher/SoundMatcher-Prefix.pch";
+				INFOPLIST_FILE = "SoundMatcher/SoundMatcher-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84D4F77D17BCA3630036741C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundMatcher.app/SoundMatcher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundMatcher/SoundMatcher-Prefix.pch";
+				INFOPLIST_FILE = "SoundMatcherTests/SoundMatcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84D4F77E17BCA3630036741C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SoundMatcher.app/SoundMatcher";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SoundMatcher/SoundMatcher-Prefix.pch";
+				INFOPLIST_FILE = "SoundMatcherTests/SoundMatcherTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D4F73C17BCA3620036741C /* Build configuration list for PBXProject "SoundMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4F77717BCA3630036741C /* Debug */,
+				84D4F77817BCA3630036741C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D4F77917BCA3630036741C /* Build configuration list for PBXNativeTarget "SoundMatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4F77A17BCA3630036741C /* Debug */,
+				84D4F77B17BCA3630036741C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84D4F77C17BCA3630036741C /* Build configuration list for PBXNativeTarget "SoundMatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D4F77D17BCA3630036741C /* Debug */,
+				84D4F77E17BCA3630036741C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D4F73917BCA3620036741C /* Project object */;
+}
